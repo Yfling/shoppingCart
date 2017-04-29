@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+}
+body,
+dl,
+dd {
+  margin: 0;
+}
+th,
+td {
+  padding: 0;
+}
+span,
+i {
+  display: inline-block;
+}
+input[type='submit'] {
+  border: none;
+  background-color: #6190ef;
+  margin: 10px;
+  padding: 10px 15px;
+}
+#container {
+  font-family: Arial;
+  min-width: 720px;
+  max-width: 1280px;
+  overflow: hidden;
+  margin: 0 auto;
+}
