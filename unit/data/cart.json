@@ -1,0 +1,62 @@
+{
+  "status": 0,
+  "message": "success",
+  "result": {
+      "totalHoney":59,
+      "list":[
+      {
+      "name": "面具1",
+      "price": 19,
+      "count": 1,
+      "amount": 19,
+      "imgPic": "static/img/test.jpg",
+      "gifts": [
+        {
+          "partId":"10001",
+          "partName":"打火机"
+        },
+        {
+          "partId":"10002",
+          "partName":"火柴"
+        }
+      ]
+      },
+      {
+      "name": "面具2",
+      "price": 20,
+      "count": 1,
+      "amount": 20,
+      "imgPic": "static/img/test1.jpg",
+        "gifts": [
+          {
+            "partId":"10001",
+            "partName":"打火机"
+          },
+          {
+            "partId":"10002",
+            "partName":"火柴盒"
+          }
+        ]
+      },
+        {
+          "name": "面具3",
+
+          "price": 20,
+          "count": 1,
+          "amount": 20,
+          "imgPic": "static/img/test1.jpg",
+          "gifts": [
+            {
+              "partId":"10001",
+              "partName":"打火机"
+            },
+            {
+              "partId":"10002",
+              "partName":"火柴盒"
+            }
+          ]
+        }
+      ]
+  }
+
+}
