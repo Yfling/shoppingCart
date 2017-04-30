@@ -14,6 +14,11 @@
             "partsId":"10001",
             "partsName":"打火机",
             "imgSrc":"static/img/part-1.jpg"
+          },
+          {
+            "partsId":"10002",
+            "partsName":"打火机",
+            "imgSrc":"static/img/part-1.jpg"
           }
         ]
       },

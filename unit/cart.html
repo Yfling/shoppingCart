@@ -118,15 +118,15 @@
               <div class="cart-foot-l">
                 <div class="item-all-check">
                   <a href="javascript:void 0">
-                    <span class="item-check-btn" :class="{'check':isCheckAll}">
+                    <span class="item-check-btn" >
                       <svg class="icon icon-ok"><use xlink:href="#icon-ok"></use></svg>
                     </span>
-                    <span v-show="!isCheckAll">全选</span>
+                    <span>全选</span>
                   </a>
                 </div>
                 <div class="item-all-del">
                   <a href="javascript:void 0" class="item-del-btn">
-                    <span v-show="isCheckAll">取消全选</span>
+                    <span>取消全选</span>
                   </a>
                 </div>
               </div>
@@ -135,7 +135,7 @@
                   Item total: <span class="total-price"></span>
                 </div>
                 <div class="next-btn-wrap">
-                  <router-link to="/address" class="btn btn--red" style="width: 200px">结账</router-link>
+                  <a href="javascrit:;" class="btn btn--red" style="width: 200px">结账</a>
                 </div>
               </div>
             </div>
@@ -152,7 +152,7 @@
                 <p id="cusLanInfo">你确认删除此订单信息吗?</p>
               </div>
               <div class="btn-wrap col-2">
-                <button class="btn btn--m" id="btnModalConfirm"></button>
+                <button class="btn btn--m" id="btnModalConfirm">Yes</button>
                 <button class="btn btn--m btn--red" id="btnModalCancel">No</button>
               </div>
             </div>
@@ -160,7 +160,9 @@
         </div>
       </div>
     </div>
-    <script src="js/lib/vue.min.js"></script>
+
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <script src="js/lib/vue-resource.js"></script>
+    <script src="js/cart.js"></script>
 </body>
 </html>
