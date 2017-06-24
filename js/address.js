@@ -21,7 +21,7 @@ new Vue({
       var _this = this;
       this.$http.get("data/address.json").then(function(response) {
         var res = response.data;
-        if (res.status = "0") {
+        if (res.status == "0") {
           _this.addressList = res.result;
         }
       });
