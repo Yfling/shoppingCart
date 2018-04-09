@@ -22,8 +22,10 @@ new Vue({
       cartView: function() {
         var _this = this;
         this.$http.get("data/cartData.json", {"id": 123}).then(function(res) {
-          _this.productList = res.body.result.list;
-          // _this.totalMoney =  res.body.result.totalMoney;
+//           把json字符串转换成json对象,解决 购物车商品没有渲染问题
+          _this.productList = JSON.parse(res.body).result.list;
+          _this.totalMoney =  JSON.parse(res.body).result.totalMoney;
+
         });
       },
       changeMoney: function(product, way) {
